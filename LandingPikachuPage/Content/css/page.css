@@ -1,0 +1,7 @@
+﻿.page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-family: system, sans-serif;
+  flex: 1 0 auto;
+}

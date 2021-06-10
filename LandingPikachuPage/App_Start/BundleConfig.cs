@@ -6,8 +6,8 @@ namespace LandingPikachuPage
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new StyleBundle("~/Content/less").Include(
-                      "~/Content/less/main.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/css/main.css"));
         }
     }
 }

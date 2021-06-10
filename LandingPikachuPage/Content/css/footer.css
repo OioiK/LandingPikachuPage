@@ -1,0 +1,23 @@
+﻿.footer {
+  background-color: #f8f9fa;
+  color: #BABABA;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.footer-logo {
+  margin-bottom: 16px;
+}
+@media (min-width: 1025px) {
+  .footer {
+    height: 150px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 280px) and (max-width: 480px) {
+  .footer {
+    height: 100px;
+  }
+}
