@@ -1,0 +1,61 @@
+@import "colors";
+@import "media";
+
+.event-header {
+    width: 100%;
+    background-color: @header-color;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-logo {
+    margin-bottom: 48px;
+}
+
+.event-title {
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.event-date {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.event-location {
+    font-size: 24px;
+}
+
+@media @desktop {
+    .event-header {
+        height: 793px;
+    }
+}
+
+@media @tablet {
+    .event-header {
+        height: 1024px;
+    }
+}
+
+@media @mobile {
+    .event-header {
+        height: 568px;
+    }
+
+    .event-logo {
+        margin-bottom: 12px;
+    }
+
+    .event-title {
+        margin-bottom: 24px;
+    }
+
+    .event-date {
+        margin-bottom: 16px;
+    }
+}

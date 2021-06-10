@@ -1,0 +1,102 @@
+@import "media";
+
+.speakers-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.speakers-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  max-width: 1100px;
+}
+
+.speakers-label {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px 0 20px 0;
+}
+
+.speakers-label-desktop {
+  display: none;
+}
+
+.speakers-label-tablet-mobile {
+  display: none;
+}
+
+.speaker-tile {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 220px;
+  text-align: center;
+}
+
+.speaker-tile > img{
+  border-radius: 50%;
+  padding-bottom: 8px;
+  width: 120px;
+  height: 120px;
+}
+
+.speaker-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.speaker-description {
+  font-style: italic;
+}
+
+@media @desktop, @tablet {
+  .speakers-block {
+    padding: 32px 16px;
+  }
+
+  .speakers-label {
+    text-align: center;
+  }
+}
+
+@media @desktop {
+  .speaker-tile {
+    margin: 12px 16px;
+  }
+
+  .speakers-label-desktop {
+    display: unset;
+  }
+}
+
+@media @tablet, @mobile {
+  .speaker-tile {
+    margin: 12px 8px;
+  }
+
+  .speakers-label-tablet-mobile {
+    display: block;
+  }
+}
+
+@media @mobile {
+  .speakers-block {
+    padding: 8px 15px;
+  }
+
+  .speakers-label {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .speaker-tile {
+    margin: 12px 8px;
+  }
+}

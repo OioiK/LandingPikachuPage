@@ -1,0 +1,29 @@
+@import "colors";
+@import "media";
+
+.footer {
+  background-color: @footer-color;
+  color: #BABABA;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
+}
+
+@media @desktop {
+  .footer {
+    height: 150px;
+  }
+}
+
+@media @tablet, @mobile {
+  .footer {
+    height: 100px;
+  }
+}

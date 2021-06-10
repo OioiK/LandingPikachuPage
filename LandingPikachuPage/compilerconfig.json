@@ -1,0 +1,78 @@
+﻿[
+  {
+    "outputFile": "Content/scss/colors.css",
+    "inputFile": "Content/scss/colors.scss"
+  },
+  {
+    "outputFile": "Content/scss/footer.css",
+    "inputFile": "Content/scss/footer.scss"
+  },
+  {
+    "outputFile": "Content/scss/greeting.css",
+    "inputFile": "Content/scss/greeting.scss"
+  },
+  {
+    "outputFile": "Content/scss/header.css",
+    "inputFile": "Content/scss/header.scss"
+  },
+  {
+    "outputFile": "Content/scss/main.css",
+    "inputFile": "Content/scss/main.scss"
+  },
+  {
+    "outputFile": "Content/scss/media.css",
+    "inputFile": "Content/scss/media.scss"
+  },
+  {
+    "outputFile": "Content/scss/page.css",
+    "inputFile": "Content/scss/page.scss"
+  },
+  {
+    "outputFile": "Content/scss/speaker.css",
+    "inputFile": "Content/scss/speaker.scss"
+  },
+  {
+    "outputFile": "Content/less/colors.css",
+    "inputFile": "Content/less/colors.less"
+  },
+  {
+    "outputFile": "Content/less/event-header.css",
+    "inputFile": "Content/less/event-header.less"
+  },
+  {
+    "outputFile": "Content/less/footer.css",
+    "inputFile": "Content/less/footer.less"
+  },
+  {
+    "outputFile": "Content/less/greeting.css",
+    "inputFile": "Content/less/greeting.less"
+  },
+  {
+    "outputFile": "Content/less/master.css",
+    "inputFile": "Content/less/master.less"
+  },
+  {
+    "outputFile": "Content/less/media.css",
+    "inputFile": "Content/less/media.less"
+  },
+  {
+    "outputFile": "Content/less/page.css",
+    "inputFile": "Content/less/page.less"
+  },
+  {
+    "outputFile": "Content/less/speakers.css",
+    "inputFile": "Content/less/speakers.less"
+  },
+  {
+    "outputFile": "Content/less/header.css",
+    "inputFile": "Content/less/header.less"
+  },
+  {
+    "outputFile": "Content/less/main.css",
+    "inputFile": "Content/less/main.less"
+  },
+  {
+    "outputFile": "Content/less/reset.css",
+    "inputFile": "Content/less/reset.less"
+  }
+]

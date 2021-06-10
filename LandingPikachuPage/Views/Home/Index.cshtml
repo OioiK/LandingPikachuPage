@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Название мероприятия</title>
+</head>
+
+<body>
+    <div id="page" class="page">
+        <div id="event-header" class="event-header">
+            <div id="event-logo" class="event-logo">
+                <img src="~/Content/img/header-logo.png" alt="DIRECTUM">
+            </div>
+            <span id="event-title" class="event-title">НАЗВАНИЕ МЕРОПРИЯТИЯ</span>
+            <span id="event-date" class="event-date">4 МАЯ 2049</span>
+            <span id="event-location" class="event-location">в самом сердце страны</span>
+        </div>
+        <div id="greeting-container" class="greeting-container">
+            <div class="greeting-block-left">
+                <div id="greeting-text" class="greeting-text">
+                    <p>Дорогие друзья!</p>
+                    <p>
+                        <b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur.
+                    </p>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+            <div class="greeting-block-right">
+                <div id="registration-info" class="registration-info">
+                    <span class="registration-info-label">Регистрация</span>
+                    <p>Пожалуйста, проверьте правильность введенных данных:</p>
+                    <div id="registration-info-table" class="registration-info-table">
+                        <div class="registration-info-row">
+                            <span class="registration-info-key">ФИО:</span>
+                            <span>Иванов Иван Иванович</span>
+                        </div>
+                        <div class="registration-info-row">
+                            <span class="registration-info-key">Место работы:</span>
+                            <span>DIRECTUM</span>
+                        </div>
+                        <div class="registration-info-row">
+                            <span class="registration-info-key">E-mail:</span>
+                            <span>ivanov_ii@directum.ru</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="speakers-block" class="speakers-block">
+            <span class="speakers-label-desktop">
+                Наши спикеры
+            </span>
+            <span class="speakers-label-tablet-mobile">
+                Готовятся к общению
+            </span>
+            <div id="speakers-list" class="speakers-list">
+                @for (int i = 0; i <= 6; i++)
+                {
+                    <div class="speaker-tile">
+                        <img src="~/Content/img/speaker.png" alt="Speaker" />
+                        <span class="speaker-name">Детектив пикачу</span>
+                        <span class="speaker-description">уморительный, остроумный и обаятельный сыщик</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="footer">
+        <div id="footer-logo" class="footer-logo">
+            <img src="~/Content/img/footer-logo.png" alt="DIRECTUM">
+        </div>
+        <div id="footer-copyright">© DIRECTUM, 2019</div>
+    </footer>
+</body>
+</html>
